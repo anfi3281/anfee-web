@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rental Kamera</title>
+  </head>
+  <body>
+    <form>
+      <h2><center>Aplikasi Rental Kamera</center></h2>
+      <br /><br />
+      No Sewa : <input type="text" size="10" /><br /><br />
+      Nama : <input type="text" readonly /><br /><br />
+      Alamat : <textarea disabled></textarea><br /><br />
+      Jenis Alat :
+      <input type="checkbox" name="ja" value="Kamera" />Kamera
+      <input type="checkbox" name="ja" value="Lensa" />Lensa
+      <input type="checkbox" name="ja" value="Tripod" />Tripod
+      <input type="checkbox" name="ja" value="Drone" />Drone <br /><br />
+      Jumlah Hari :
+      <select>
+        <option>1 Hari</option>
+        <option>3 Hari</option>
+        <option>5 Hari</option>
+        <option>7 Hari</option></select
+      ><br /><br />
+      Jenis Pembayaran :
+      <input
+        list="jp"
+        name="jenispembayaran"
+        placeholder="masukkan jenis pembayaran disini...."
+      />
+      <datalist id="jp">
+        <option value="Transfer"></option>
+        <option value="Cash"></option></datalist
+      ><br /><br />
+      Tanggal Pengembalian : <input type="text" maxlength="20" /><br /><br />
+    </form>
+    <table border="1">
+      <tr>
+        <th>No Sewa</th>
+        <th>Nama</th>
+        <th>Alamat</th>
+        <th>Jenis Alat</th>
+        <th>Jumlah Hari</th>
+        <th>Jenis Pembayaran</th>
+        <th>Tanggal Pengembalian</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Budi</td>
+        <td>Sragi</td>
+        <td>Kamera, Lensa</td>
+        <td>3 Hari</td>
+        <td>Transfer</td>
+        <td>3 Desember 2024</td>
+      </tr>
+    </table>
+  </body>
+</html>
