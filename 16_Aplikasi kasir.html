@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aplikasi Kasir</title>
+    <link rel="stylesheet" type="text/css" href="CSS/16_Style2.css" />
+  </head>
+  <body>
+    <form>
+      <h1>Aplikasi Kasir</h1>
+      <br />
+      No Transaksi : <input type="text" size="5" /><br /><br />
+      ID Transaksi : <input type="text" maxlength="4" /><br /><br />
+      Nama Barang : <input type="text" placeholder="Nama barang" /><br /><br />
+      Jumlah : <input type="text" disabled /><br /><br />
+      Harga : <input type="text" readonly /><br /><br />
+      Jenis Pembeli : <input type="radio" name="jp" value="laki-laki"
+      /checked>Laki-laki
+      <input type="radio" name="jp" value="perempuan" />Perempuan <br /><br />
+      Barang :
+      <input type="checkbox" /> buku <input type="checkbox" /> pulpen
+      <input type="checkbox" /> staples <input type="checkbox" /> spidol
+      <br /><br />
+      Daerah Pembeli :
+      <select>
+        <option>Sragi</option>
+        <option>Bojong</option>
+        <option>Kedungwuni</option>
+      </select>
+      <br /><br />
+      Golongan harga :
+      <input list="jenisharga" name="jh" />
+      <datalist id="jenisharga">
+        <option>Murah</option>
+        <option>Mahal</option></datalist
+      ><br /><br />
+    </form>
+    <table border="1">
+      <tr>
+        <th>No Transaksi</th>
+        <th>ID Transaksi</th>
+        <th>Nama Barang</th>
+        <th>Jumlah</th>
+        <th>Harga</th>
+        <th>Jenis Pembeli</th>
+        <th>Barang</th>
+        <th>Daerah Pembeli</th>
+        <th>Golongan Harga</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>A1</td>
+        <td>Buku Tulis</td>
+        <td>1</td>
+        <td>3000</td>
+        <td>Laki-laki</td>
+        <td>buku</td>
+        <td>Sragi</td>
+        <td>Murah</td>
+      </tr>
+    </table>
+    <br />
+    <form>
+      <button value="Submit">Proses</button>
+      <button value="Lanjut">Lanjut</button>
+    </form>
+  </body>
+</html>
