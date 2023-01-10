@@ -1,0 +1,8 @@
+body{
+    background: url('../bali.jpg');
+}
+
+.kotak{
+    background-color: blue;
+    padding: 5px;
+}
